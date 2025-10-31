@@ -20,31 +20,6 @@ A powerful CLI tool to recursively collect and concatenate source code files fro
 
 🔍 **Verbose Logging**: Understand exactly which files are being processed and why.
 
-### Complete Directory Structure
-
-contextify/
-│
-├── src/
-│   └── contextify/
-│       ├── __init__.py
-│       ├── main.py
-│       ├── core.py
-│       ├── patterns.py
-│       └── logger.py
-│
-├── tests/
-│   ├── __init__.py
-│   ├── test_patterns.py
-│   ├── test_core.py
-│   └── test_main.py
-│
-├── .gitignore
-├── README.md
-├── CONTRIBUTING.md
-├── LICENSE                 # MIT License
-└── pyproject.toml
-
-
 
 ## Installation
 
