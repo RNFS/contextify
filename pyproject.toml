@@ -1,0 +1,12 @@
+[project]
+name = "contextify"
+version = "0.1.0"
+description = "A CLI tool to concatenate project files for AI context."
+requires-python = ">=3.9"
+authors = [{name = "Radwan Faris", email = "radwanfaris13@gmail.com"}]
+
+[project.scripts]
+contextify = "contextify.main:main"
+
+[tool.uv]
+# Configuration for uv can go here if needed
