@@ -188,7 +188,21 @@ contextify/
 ### Running Tests
 
 ```bash
+uv pip install -e ".[dev]"
+
+
 pytest
+
+pytest --version
+
+#Run with Coverage Report
+
+pytest --cov=src/contextify --cov-report=html
+
+#Then open htmlcov/index.html in your browser to see coverage.
+
+
+
 ```
 
 ### Code Quality
