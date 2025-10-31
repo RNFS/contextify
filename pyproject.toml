@@ -10,3 +10,12 @@ contextify = "contextify.main:main"
 
 [tool.uv]
 # Configuration for uv can go here if needed
+
+
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov>=4.0",
+    "pytest-mock>=3.10",
+]
